@@ -16,7 +16,8 @@ def animate_sunrise(sun):
     sun.moveTo(x, y)
     print (rad, "   ", x, "   ", y)
 
-canvas = Canvas(600, 200)
+#수정한 코드
+canvas = Canvas(800, 200)
 canvas.setBackgroundColor("dark blue")
 
 sun = Circle(30)
